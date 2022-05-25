@@ -18,6 +18,11 @@
     color: #ffffff;
     border: 1px solid #494ce8;
     background-color: #494ce8;
+    &:disabled {
+      cursor:not-allowed;
+      background-color: #f7f7f7;
+      color: #494ce8;
+    }
   }
 
   // danger btn
